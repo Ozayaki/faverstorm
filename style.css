@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: none;
+}
+/* Font family */
+@font-face  {
+    font-family: 'Kanit';
+    src: url('Kanit-Black.ttf');
+}
+@font-face  {
+    font-family: 'Eb';
+    src: url('Overpass-ExtraBold.ttf');
+}
+@font-face  {
+    font-family: 'Ebi';
+    src: url('Overpass-ExtraBoldItalic.ttf');
+}
+@font-face  {
+    font-family: 'Russo';
+    src: url('RussoOne-Regular.ttf');
+}
+/* Body */
+body {
+    color: #fff;
+    background-color: #191919;
+    background: url('body.png');
+    background-size: cover;
+}
+/* Header */
+.main {
+    text-align: center;
+}
+li {
+    display: inline;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Russo;
+}
+#logo {
+    font-size: 30px;
+    font-family: Kanit;
+    padding-right: 30px;
+}
+#faver {
+    background: linear-gradient(45deg, #ff2b4a, #ff8800);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+header {
+    position: sticky;
+    background: #00000073;
+}
+/* Container */
+#persona {
+    width: 20%;
+    height: 20%;
+}
+.right {
+    width: 90%;
+    text-align: right;
+    padding-top: 5%;
+}
+.text {
+    position: absolute;
+    width: 40vw;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.text h2 {
+    font-family: Kanit;
+}
+.text h3 {
+    font-family: Eb;
+}
+#join {
+    font-family: Russo;
+    background: linear-gradient(45deg, #ff6a7f, #ffb380);
+    border: 0;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.butt {
+    padding-top: 10%;
+}
+/* Next */
+#jointext {
+    font-family: Russo;
+}
+.sup h2 {
+    font-family: Russo;
+}
+.sup h3 {
+    font-family: Eb;
+}

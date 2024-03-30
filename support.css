@@ -1,0 +1,13 @@
+.sup {
+    padding: 10%;
+}
+#ds, #tg {
+    background: linear-gradient(45deg, #662bff, #8098ff);
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+}
+#tg {
+    background: linear-gradient(45deg, #95e0ff, #158cff);
+}
