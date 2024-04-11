@@ -1,0 +1,115 @@
+@media(min-width: 320px){
+    body {
+        background: #ffffff;
+        color: #ffffff;
+    }
+    .container {
+        background: linear-gradient(45deg, #2e2e2e, #000000);
+        height: 100vh;
+        background-repeat: no-repeat;
+    }
+    #persona {
+        width: 60%;
+        height: 60%;
+    }
+    .text {
+        text-align: center;
+        position: static;
+    }
+    .text h2{
+        font-family: Kanit;
+    }
+    .text h3 {
+        font-family: Eb;
+    }
+    #faver {
+    background: linear-gradient(45deg, #40a1ff, #ff55f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+    .right {
+        text-align: center;
+        width: 100%;
+        padding-top: 30px;
+    }
+    #join {
+        font-family: Russo;
+        background: linear-gradient(45deg, #6ab6ff, #f4aaff);
+        border: 0;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    #jointext {
+        font-family: Russo;
+    }
+    .imgCont {
+        font-size: 30px;
+        padding-top: 15%;
+    }
+    .imgCont h3 {
+        font-size: 25px;
+    }
+    .hamburger {
+    width: 100%;
+    padding-top: 0px;
+}
+#mb, #mbc {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+#mbc {
+    display: none;
+}
+.mr {
+    position: absolute;
+    width: 90%;
+    text-align: right;
+} 
+.ml {
+    position: absolute;
+    width: 90%;
+    text-align: left;
+    padding-left: 10%;
+}
+.ml h2 {
+    font-family: Kanit;
+}
+.mcont {
+    display: inline-block;
+    text-align: left;
+    background: #1a1a1a;
+    height: 100vh;
+    width: 50vw;
+    transform: translateX(-50vw);
+    transition: all 0.5s ease-in;
+    position: absolute;
+}
+.mcont h3 {
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+.mcont h2 {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.main {
+    display: none;
+}
+.mr, .ml {
+    padding-top: 15px;
+}
+.rules {
+    color: black;
+}
+.hamburger h2 {
+    font-family: Russo;
+}
+.hamburger a {
+    font-family: Russo;
+    text-decoration: none;
+    color: white;
+}
+}

@@ -1,0 +1,31 @@
+.sup {
+    padding: 10%;
+}
+#ds, #tg {
+    background: linear-gradient(45deg, #662bff, #8098ff);
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+}
+#tg {
+    background: linear-gradient(45deg, #95e0ff, #158cff);
+}
+@media(min-width: 320px){
+    body {
+        background: url('body.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .sup {
+        padding-top: 30%;
+    }
+}
+@media(min-width: 1000px){
+    background: url('body.png');
+        background-size: auto;
+    }
+    .sup {
+        padding-top: 20%;
+    }
+}
