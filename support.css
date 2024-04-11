@@ -17,6 +17,8 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-size:100% 100%;
+        width: 100vw;
+        height: 100vh;
     }
     .sup {
         padding-top: 30%;
@@ -25,6 +27,8 @@
 @media(min-width: 1000px){
     background: url('body.png');
         background-size: auto;
+        width: 100vw;
+        height: 100vh;
     }
     .sup {
         padding-top: 20%;
