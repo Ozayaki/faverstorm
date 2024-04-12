@@ -74,9 +74,11 @@ header {
 }
 .text h2 {
     font-family: Kanit;
+    font-size:300%
 }
 .text h3 {
     font-family: Eb;
+    font-size: 200%;
 }
 #join {
     font-family: Russo;
@@ -92,6 +94,7 @@ header {
 /* Next */
 #jointext {
     font-family: Russo;
+    font-size: 300%
 }
 .rules {
     display: none;
@@ -112,7 +115,7 @@ header {
     display: block;
 }
 .imgCont {
-    padding-top: 0%;
+    padding-top: 5%;
 }
 } 
 .sup h2 {
